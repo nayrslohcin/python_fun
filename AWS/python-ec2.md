@@ -13,5 +13,5 @@ python-testing uses the config file created by the AWS cli. e.g.
 
 ## Running
 
-`pipenv run "python AWS\pythong-testing.py"`
+`pipenv run python AWS\python-ec2.py`
 
