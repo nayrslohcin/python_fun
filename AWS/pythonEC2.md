@@ -13,5 +13,10 @@ python-testing uses the config file created by the AWS cli. e.g.
 
 ## Running
 
-`pipenv run python AWS\python-ec2.py`
+`pipenv run python AWS\python-ec2.py <command> <subcommand>
+ <--project=PROJECT>`
+
+*command* is instances, volumes, or snapshtos list, start, or stop
+*subcommand* - depends on command
+*project" is optional
 
